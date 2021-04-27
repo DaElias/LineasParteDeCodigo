@@ -18,10 +18,10 @@ public class Lineas {
     }
 
     public void draw(Graphics g) {
+        //puntos
         g.setColor(Color.RED);
         g.fillOval(pInicio.getX(), pInicio.getY(), 10, 10); //Punto Inicial
         g.fillOval(PFinal.getX(), PFinal.getY(), 10, 10);  //Punto Final
-
         //g.fillOval(PFinal.getX(), pInicio.getY(), 10, 10);
         g.setColor(Color.BLUE);
         g.fillOval(W.getX(), W.getY(), 10, 10); //W
